@@ -5,8 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  
+  <table>
+    <tr>
+      <th>Title</th>
+      <th>Author</th>
+      <th>Pages</th>
+      <th>is read</th>
+      <th>Remove</th>
+      <th>Toggle Read</th>
+    </tr>
+  </table>
+  <button>New Book</button>
+  <dialog>
+    <form action="">
+      <label for="title">Title:</label>
+      <input type="text" id="title">
+      <br>
+      <label for="author">Author:</label>
+      <input type="text" id="author">
+      <br>
+      <label for="pages">Pages:</label>
+      <input type="number" id="pages">
+      <br>
+      <label for="isRead">Is read:</label>
+      <input type="checkbox" id="isRead">
+      <button type="button" id="close">Close</button>
+      <button id="add">Add</button>
+    </form>
+  </dialog>
+  <script src="main.js"></script>
 </body>
 </html>
